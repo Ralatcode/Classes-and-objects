@@ -6,6 +6,8 @@ class Student:
         self.tracks = list(tracks)
         self.score = float(score)
 
+    
+    # creates a change name method
     def change_name(self, new_name):
         self.name = new_name
         print("The student has changed its name from ", self.name," to ", new_name)
